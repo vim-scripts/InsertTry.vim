@@ -1,0 +1,12 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=1090
+
+mark some lines and type ¬t
+the marked lines will be enclosed in a try block with an additional catch and finally block
+
+Whre is the ¬ key? Feel free to change this.
+
+customize:
+:let b:java_InsertTry_Style="Java" | "C" | "JavaShort"                         default = "Java"
+:let b:java_InsertTry_Goto="catch" | "."                                                   default = "catch"
+
+
